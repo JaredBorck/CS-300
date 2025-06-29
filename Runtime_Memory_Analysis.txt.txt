@@ -1,0 +1,18 @@
+﻿// Runtime Analysis and Recommendation
+
+
+| Data Structure | Insert Course  | Search Course | Sort and Print | Memory Use |
+|--------------------|---------------------|-------------------|------------------|-----------------|
+| Vector             | O(1) append    | O(n)              | O(n log n)     | Low             |
+| Hash Table     | O(1) (avg)        | O(1) (avg)     | O(n log n)     | Moderate    |
+| BST                | O(log n)           | O(log n)         | O(n)           | Higher           |
+
+
+Analysis:
+- Vector is easy to use and memory efficient but has poor search performance on large data sets.
+- Hash Table offers fast average-case lookups and inserts, but requires extra work to sort.
+- BST maintains sorted order naturally and has efficient operations if balanced, but worst-case performance can degrade.
+
+
+Recommendation:
+Use the **Hash Table**. It gives the best average-case performance for the two key features: searching a course and inserting data. Sorting is only needed for one menu option and is acceptable. This makes it the best balanced choice for performance and simplicity.
